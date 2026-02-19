@@ -1,5 +1,7 @@
 # To-Do List Application README.md
 
+# Note: Currently till on Improvements
+
 # Overview
 Building a To-do list web application having several capabilities:
  Add, complete, and delete tasks manipulation
