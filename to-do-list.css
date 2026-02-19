@@ -10,7 +10,8 @@ body {
 
 .container {
     width: 100%;
-    max-width: 30%;
+    margin: 0 auto;
+    max-width: 600px;
     background-color: #ffffff;
     border-radius: 16px;
     padding: 54px;
@@ -33,14 +34,27 @@ body {
 }
 
 .theme-btn {
-    background-color: transparent;
+    background-color: #f1f5f9;
     border: none;
     border-radius: 10px;
     transition: hover 0.3s ease;
     color: #1e293b;
     padding: 10px 14px;
+    transition: hover 0.3s ease;
 }
 
 .theme-btn:hover {
-    background-color: #e0e7ff;
-    color: #4f46e5;
+    background-color: #6c66da;
+    color: #e0e7ff;
+}
+
+.stats {
+    display: flex;
+    background: #f1f5f9;
+    padding: 16px;
+    border-radius: 12px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.
