@@ -11,13 +11,13 @@ const themeBtn = document.getElementById('theme-btn');
 
 // Toggle dark mode
 themeBtn.addEventListener('click', () => {
-    isDarkMode = !isDarkMode;
+    isDarkMode =! isDarkMode;
     if (isDarkMode) {
-        document.documentElement.setAttribute('data-theme', 'dark');
+        document.documentElement.setAttribute('theme-view', 'dark');
         themeBtn.innerHTML = '<i class="fas fa-sun"></i>';
         localStorage.setItem('theme', 'dark');
     } else {
-        document.documentElement.removeAttribute('data-theme');
+        document.documentElement.removeAttribute('theme-view');
         themeBtn.innerHTML = '<i class="fas fa-moon"></i>';
         localStorage.setItem('theme', 'light');
     }
