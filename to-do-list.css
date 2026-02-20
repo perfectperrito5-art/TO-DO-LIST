@@ -181,4 +181,6 @@ body {
 .footer {
     text-align: center;
     padding:8px 12px;
+    margin-top: 20px;
+    color: #2d394d;
 }
